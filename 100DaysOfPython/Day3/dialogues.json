@@ -1,0 +1,39 @@
+{
+    "start": {
+      "text": "You are at a crossroad. Where do you want to go? Left or Right?",
+      "choices": [
+        { "text": "Left", "next": "left_path" },
+        { "text": "Right", "next": "right_path" }
+      ]
+    },
+    "left_path": {
+      "text": "You come to a lake. Do you wait for a boat or swim across?",
+      "choices": [
+        { "text": "Wait for a boat", "next": "boat_wait" },
+        { "text": "Swim across", "next": "swim_across" }
+      ]
+    },
+    "right_path": {
+      "text": "You encounter a tiger. Do you fight or run?",
+      "choices": [
+        { "text": "Fight", "next": "fight_tiger" },
+        { "text": "Run", "next": "run_away" }
+      ]
+    },
+    "boat_wait": {
+      "text": "You waited for a boat and safely crossed the lake.",
+      "choices": []
+    },
+    "swim_across": {
+      "text": "You swam across but got tired and drowned.",
+      "choices": []
+    },
+    "fight_tiger": {
+      "text": "You fought the tiger and won!",
+      "choices": []
+    },
+    "run_away": {
+      "text": "You ran away safely.",
+      "choices": []
+    }
+  }

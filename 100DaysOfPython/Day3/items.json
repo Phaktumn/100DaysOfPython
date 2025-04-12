@@ -1,0 +1,32 @@
+[
+    {
+      "id": 1,
+      "name": "Rusty Key",
+      "description": "An old rusty key. It might open something.",
+      "art": "[Key Art]",
+      "item_type": "key"
+    },
+    {
+      "id": 2,
+      "name": "Ancient Book",
+      "description": "A book filled with mysterious symbols.",
+      "art": "[Book Art]",
+      "item_type": "book"
+    },
+    {
+      "id": 3,
+      "name": "Iron Sword",
+      "description": "A basic iron sword. Reliable but not very sharp.",
+      "art": "[Sword Art]",
+      "item_type": "weapon",
+      "stats": { "attack": 10, "durability": 50 }
+    },
+    {
+      "id": 4,
+      "name": "Leather Armor",
+      "description": "Simple leather armor. Provides minimal protection.",
+      "art": "[Armor Art]",
+      "item_type": "armor",
+      "stats": { "defense": 5, "durability": 30 }
+    }
+  ]
